@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Collection = () => {
+  // image click to change image
+  const [image1, setImage1] = useState("collection1.png");
+  const [image2, setImage2] = useState("collection2.png");
+  const [image3, setImage3] = useState("collection3.png");
+
   return (
     <div className="bg-[#D9E0EC33] w-full ">
       <div className="w-full max-w-[1400px] px-6 mx-auto py-16 my-12 md:my-[8rem] ">
@@ -11,14 +16,29 @@ const Collection = () => {
           <div className="">
             <div className="flex gap-5">
               <img
-                src="collection1.png"
+                src={image1}
                 alt="image"
                 className=" w-[250px] md:w-[300px]"
               />
               <div className="flex gap-5 flex-col">
-                <img src="collection2.png" alt="image" className="w-[100px]" />
-                <img src="collection3.png" alt="image" className="w-[100px]" />
-                <img src="collection4.png" alt="image" className="w-[100px]" />
+                <img
+                  src="collection2.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage1("collection2.png")}
+                />
+                <img
+                  src="collection3.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage1("collection3.png")}
+                />
+                <img
+                  src="collection4.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage1("collection4.png")}
+                />
               </div>
             </div>
 
@@ -45,14 +65,29 @@ const Collection = () => {
           <div className="">
             <div className="flex gap-5">
               <img
-                src="collection1.png"
+                src={image2}
                 alt="image"
                 className="w-[250px] md:w-[300px]"
               />
               <div className="flex gap-5 flex-col">
-                <img src="collection2.png" alt="image" className="w-[100px]" />
-                <img src="collection3.png" alt="image" className="w-[100px]" />
-                <img src="collection4.png" alt="image" className="w-[100px]" />
+                <img
+                  src="collection2.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage2("collection2.png")}
+                />
+                <img
+                  src="collection3.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage2("collection3.png")}
+                />
+                <img
+                  src="collection4.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage2("collection4.png")}
+                />
               </div>
             </div>
 
@@ -79,14 +114,29 @@ const Collection = () => {
           <div className="">
             <div className="flex gap-5">
               <img
-                src="collection1.png"
+                src={image3}
                 alt="image"
                 className="w-[250px] md:w-[300px]"
               />
               <div className="flex gap-5 flex-col">
-                <img src="collection2.png" alt="image" className="w-[100px]" />
-                <img src="collection3.png" alt="image" className="w-[100px]" />
-                <img src="collection4.png" alt="image" className="w-[100px]" />
+                <img
+                  src="collection2.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage3("collection2.png")}
+                />
+                <img
+                  src="collection3.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage3("collection3.png")}
+                />
+                <img
+                  src="collection4.png"
+                  alt="image"
+                  className="w-[100px]"
+                  onClick={() => setImage3("collection4.png")}
+                />
               </div>
             </div>
 
