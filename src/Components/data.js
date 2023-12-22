@@ -19,7 +19,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Celebrities",
   },
 
   {
@@ -41,7 +41,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Celebrities",
   },
 
   {
@@ -63,7 +63,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Sport",
   },
 
   {
@@ -85,7 +85,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Sport",
   },
 
   {
@@ -107,7 +107,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Sport",
   },
 
   {
@@ -129,7 +129,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Crypto",
   },
 
   {
@@ -151,7 +151,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Crypto",
   },
 
   {
@@ -173,7 +173,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Crypto",
   },
 
   {
@@ -195,7 +195,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Crypto",
   },
 
   {
@@ -217,7 +217,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Music",
   },
 
   {
@@ -239,7 +239,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Music",
   },
 
   {
@@ -261,7 +261,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Gaming",
   },
 
   {
@@ -283,7 +283,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Gaming",
   },
 
   {
@@ -305,7 +305,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Celebrities",
   },
 
   {
@@ -327,7 +327,7 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Celebrities",
   },
 
   {
@@ -349,6 +349,6 @@ export const data = [
         image: "/discover3.png",
       },
     ],
-    category: "All Categories",
+    category: "Art",
   },
 ];

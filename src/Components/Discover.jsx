@@ -9,6 +9,25 @@ import { MdFilterList } from "react-icons/md";
 const Discover = () => {
   const [active, setActive] = useState(0);
 
+  // filtering based on active state
+  const filteredData = data.filter((singleData) => {
+    if (active === 0) {
+      return singleData;
+    } else if (active === 1) {
+      return singleData.category === "Art";
+    } else if (active === 2) {
+      return singleData.category === "Celebrities";
+    } else if (active === 3) {
+      return singleData.category === "Gaming";
+    } else if (active === 4) {
+      return singleData.category === "Sport";
+    } else if (active === 5) {
+      return singleData.category === "Music";
+    } else if (active === 6) {
+      return singleData.category === "Crypto";
+    }
+  });
+
   return (
     <div className="bg-[#D9E0EC33] w-full ">
       <div className="w-full max-w-[1400px] px-6 mx-auto py-16 mt-[8rem]">
@@ -82,7 +101,7 @@ const Discover = () => {
 
         {/* cards */}
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-10 mt-10">
-          {data?.map((singleCard) => (
+          {filteredData?.map((singleCard) => (
             <div className=" bg-white rounded-md p-3">
               <div className="w-full h-[70%] relative ">
                 <img
